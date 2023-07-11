@@ -18,6 +18,7 @@ body {
   align-items: center;
   height: 150px;
   padding: 5px 5%;
+
 }
 .header .logo {
   cursor: pointer;
@@ -133,6 +134,7 @@ align-items: center;
 gap: 50px;
 }
 .info h2 {
+
   font-size: 50px;
   color: whitesmoke;
   font-weight: 800;
@@ -262,7 +264,7 @@ gap: 0px;
 }
 
 .footer{
-  background-color: #4b4888;
+  background: linear-gradient(to bottom, #020024, #4b4888);
   display: flex;
   justify-content:center;
   align-items: center;
