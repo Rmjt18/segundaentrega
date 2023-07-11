@@ -5,12 +5,14 @@
   padding: 0;
   font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
+  /* border: 1px solid red;  */
 }
 body {
   background-color:#020024;
 }
 .header {
-  background-color: #4b4888;
+  /* background-color: #4b4888; */
+  background: linear-gradient(to bottom, #4b4888, #020024);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -31,6 +33,10 @@ body {
   transform: scale(1.2);
 }
 .header .nav-links {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   padding: 0% 20px;
 }
@@ -48,7 +54,7 @@ body {
 }
 /* ----------------------------section-hero ---------------------*/
 main {
-  background: var(--background);
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,16 +107,18 @@ color: grey;
 }
 
 .text-information {
+  
   display: flex;
   max-width: 1200px;
-  padding: 70px 0;
-  justify-content: space-around;
+  padding: 70px 0px;
+  justify-content: center;
   align-items: center;
   color: grey;
 }
 .text-information p {
+  justify-content: center;
   font-size: 25px;
-  width: 100%;
+  width: 1000%; 
 }
 
 /* --------------------------nueva seccion card -------------*/
@@ -132,11 +140,21 @@ gap: 50px;
 .info-card-container{
   display: flex;
   gap: 20px; 
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+.parrafo-big {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: gray;
+}
 .info p{
   
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px;
@@ -145,8 +163,8 @@ gap: 50px;
 }
 .info-card {
   background-color: rgb(112, 170, 209);
-  width: 400px;
-  height: 390px;
+  width: 380px;
+  height: 350px;
   padding: 40px 30px;
   border-radius: 10px;
   display: flex;
